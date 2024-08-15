@@ -100,7 +100,7 @@ df[BINARY].agg(['min','max'])
 ```python
 df[NUMERIC].agg(['min','max']).round(2)
 ```
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/6ed8a482-cdb4-45ec-9f4a-4ec99b189428">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/6ed8a482-cdb4-45ec-9f4a-4ec99b189428">
 
 The ranges of each feature seem to be within the expected ranges, except for revol_bal: this range is from 0 to 1.2 milions! Let's examine this feature in more detail by visually showing its distribution with a boxplot:
 
